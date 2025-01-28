@@ -52,11 +52,11 @@ II.How It Works
 	
 		~ The server returns a list of possible matches, which is displayed to the user in real-time.
 	
-	Future Enhancements
-	
-		✅ Improve Performance with Redis Caching – Cache frequently searched queries for faster responses.
-		✅ Machine Learning Integration – Use AI-based search ranking to improve auto-complete accuracy.
-		✅ Personalized Suggestions – Adapt search suggestions based on user preferences and history.
-		✅ Support for Multi-Language Search – Expand functionality to support searches in different languages.
-		✅ Deploy the Service to AWS/GCP – Make the project available in production environments with scalability.
+III.Future Enhancements
+
+	✅ Improve Performance with Redis Caching – Cache frequently searched queries for faster responses.
+	✅ Machine Learning Integration – Use AI-based search ranking to improve auto-complete accuracy.
+	✅ Personalized Suggestions – Adapt search suggestions based on user preferences and history.
+	✅ Support for Multi-Language Search – Expand functionality to support searches in different languages.
+	✅ Deploy the Service to AWS/GCP – Make the project available in production environments with scalability.
 	
