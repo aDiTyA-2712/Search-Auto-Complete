@@ -10,26 +10,32 @@ Tech stacks Used :
 Setup
 
 1.Clone the Repository
+
 	git clone https://github.com/aDiTyA-2712/Search-Auto-Complete.git
 	open it in VScode and in the terminal do : cd Search-Auto-Complete
 	
 2.Create and Activate a Virtual Environment
+
 	python -m venv venv
 	source venv/bin/activate  # On Windows: venv\Scripts\activate
 	
 3.Install Required Dependencies	
+
 	pip install -r requirements.txt
 	
 4.create SuperUser
+
 	python manage.py createsuperuser
-	- enter your admin details
-	- This is used to login to admin panel and add the data on which this query will be done.
+	enter your admin details
+	This is used to login to admin panel and add the data on which this query will be done.
 
 5.Apply Migrations & Seed Initial Data
+
 	python manage.py makemigrations
 	python manage.py migrate
 	
 6.Run the Django Development Server
+
 	Python manage.py runserver
 	
 How It Works
